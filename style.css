@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right ,#FF5F6D, #FFC371);
+    background-size: cover;
+}
+.title{
+    background-color:green;
+}
+
+.title h1{
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    color: white;
+}
+
+.title h2{
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    color: white;
+}
+
+.text .container{
+    width: 290px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+.text p{
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
