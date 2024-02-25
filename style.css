@@ -16,16 +16,100 @@ body{
     display: flex;
     color: white;
 }
+.text{
+    width:75%;
+    margin-left:200px;
+}
 
 .text .container{
-    width: 290px;
+    width: 510px;
     border: 2px solid rgba(255, 255, 255, .2);
     background-color: transparent;
     backdrop-filter: blur(20px);
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
-    justify-content:center;
+    padding-top: 10px;
+}
+.text p{
+    color: white;
+    justify-content: center;
     align-items: center;
+    font-size:20px;
+}
+.photo{
+    padding: 10px 10px 10px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.photo img{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+.multimedia{
+    display:flex;
+} 
+.musick audio{
+    height: 70px;
+    width: 510px;
+    padding-left: 10px;
+}
+
+.video video{
+    height:350px;
+    width:510px;
+  		margin-left: -510px;
+  		margin-top: 80px;
+  		border: 2px solid rgba(255, 255, 255, .2);  		
+    border-radius: 20px;
+} 
+.time{
+			margin-top: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius:20px;
+    width: 340;
+}
+.time p{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size:30px;
+}
+
+@media (max-width: 600px) {
+body{
+    background-image: linear-gradient(to right ,#FF5F6D, #FFC371);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+}
+
+.title h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.title h2{
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    color: white;
+}
+
+.text .container{
+    width: 300px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 20px 20px 20px 20px;
+    margin-left: -200px;
 }
 .text p{
     color: white;
@@ -34,6 +118,7 @@ body{
 }
 .photo{
     padding: 10px 10px 10px 0px;
+    margin-top: -240px;    
 }
 .photo img{
     height: 50px;
@@ -43,19 +128,32 @@ body{
     padding: 10px 10px 10px 10px;
 }
 
-.multimedia{
-    display:flex;
-} 
-
-
 .musick audio{
-    height: 50px;
-    width: 250px;
-    margin-top: 20px;
-    padding-left: 10px;
+    height: 70px;
+    width: 260px;
+    margin-top:-15px;
+    margin-left: -15px;
 }
 
 .video video{
     height:220px;
     width:340px;
+    margin-top: 70px;
+    margin-left: -340px;
 }
+
+.time{
+			margin-top: 5px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius:20px;
+    width: 340;
+}
+.time p{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size:15px;
+}
+
+} 
