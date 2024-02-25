@@ -2,13 +2,10 @@ body{
     background-image: linear-gradient(to right ,#FF5F6D, #FFC371);
     background-size: cover;
 }
-.title{
-    background-color:green;
-}
 
 .title h1{
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     display: flex;
     color: white;
 }
@@ -33,4 +30,13 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.photo{
+    padding: 10px 10px 10px 0px;
+}
+.photo img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
